@@ -1,0 +1,11 @@
+Create a new DB User
+--------------------
+
+CREATE USER 'user1'@'localhost' IDENTIFIED BY 'Test678!';
+
+GRANT ALL PRIVILEGES ON *.* TO 'user1'@'localhost' WITH GRANT OPTION;
+
+-----------------------------------------------------------------------------
+
+Username	: user1
+Password	: Test678!

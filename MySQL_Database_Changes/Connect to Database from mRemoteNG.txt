@@ -1,0 +1,5 @@
+Connect to Database from mRemoteNG
+-----------------------------------
+
+sudo mysql -u root -p -h localhost
+press Enter (for default blank password)

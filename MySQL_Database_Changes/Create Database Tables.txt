@@ -1,0 +1,74 @@
+-------------------------------------------------------------
+Customer Table
+
+	Customer Name	
+	SSN
+	Gender	male female
+	Date of Birth
+
+	Address	
+	City	
+	State	
+
+	PIN	
+	Mobile Number	
+	E-mail	
+	Password
+
+
+USE test;
+
+CREATE TABLE Customer (
+    Customer_id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    Customer_name VARCHAR(50),
+    SSN VARCHAR(15),
+    Gender VARCHAR(10),
+    Date_of_Birth VARCHAR(25),
+    Address VARCHAR(50),
+    City VARCHAR(25),
+    State VARCHAR(25),
+    PIN VARCHAR(25),
+    Mobile_Number VARCHAR(25),
+    Email VARCHAR(50),
+    Password VARCHAR(25)
+) ENGINE = InnoDB;
+
+-------------------------------------------------------------
+
+Account Table
+
+	Customer id	
+	Account type	
+	Initial deposit
+
+USE test;
+
+CREATE TABLE Account (
+    Account_id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    Customer_id VARCHAR(50),
+    Account_type VARCHAR(50),
+    SSN VARCHAR(15),
+    Initial_deposit VARCHAR(10)
+) ENGINE = InnoDB;
+
+-------------------------------------------------------------
+Business_To_Invest Table
+
+	SSN
+	Month
+	Year
+	Ammount_To_Invest
+	Fixed_Monthly_Interest_Rate
+
+USE test;
+
+CREATE TABLE Business_To_Invest (
+    Row_id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    SSN VARCHAR(15),
+    Month VARCHAR(15),
+    Year VARCHAR(15),
+    Ammount_To_Invest VARCHAR(15),
+    Fixed_Monthly_Interest_Rate VARCHAR(15)
+) ENGINE = InnoDB;
+
+-------------------------------------------------------------

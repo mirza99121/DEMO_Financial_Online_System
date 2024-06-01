@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    color:brown;
+    font-family: arial;
+    font-size: 70%;
+    margin: 0px;
+    padding: 0px;
+    /*background-image:  url(image.gif);*/
+    background-repeat: repeat-x;
+}
+div.noclass {
+    border: 0px solid #003B62;
+}
+div{
+    border: 1px solid #003B62;
+    /*font-family: verdana;*/
+    font-family: arial;
+    background-color: white;
+    /*font-size: 14px;*/
+    font-size: 15px;
+    padding: 5px 5px 20px 15px;
+    position : relative;
+    text-align: left;
+    overflow: auto;
+    /*height: 350px;*/
+    /*width: 95%;*/
+}
+div#column1tophalf {
+    overflow-y : scroll;
+    height: 24%;
+}
+div#column1bottomhalf {
+    overflow-y : scroll;
+    height: 73%;
+}
+div#column2{
+    /* 300 + 600 + 2*2 + 2*10 */
+    height: 50%;
+    overflow-y : scroll;
+    /*overflow-x : scroll;*/
+}
+div#display{
+    border: 1px solid #003B62;
+}
+table.main{
+    background-color: white;
+    color:black;
+    /*  border:2px solid black;*/
+    padding: 0px;
+    width: 100%;
+}
+td{
+    background-repeat: repeat-x;
+    /*border:2px solid black;*/
+    /*padding: 2px;*/
+    /*margin: 0px;*/
+    /*height: 924px;*/
+    /*height: 25px;*/
+}
+td#menu{
+    width: 225px;
+}
+td#column2{
+    /*width: 1250px;*/
+}
+pre{
+    /*font-size: 16px;*/
+    font-size: 15px;
+    /* These are required to break lines in pre */
+    white-space:pre-wrap;
+    white-space:-moz-pre-wrap;
+    white-space:-pre-wrap;
+    white-space:-o-pre-wrap;
+    word-wrap:break-word;
+}
+a:link{
+    font-size:100%;
+    /*font-size: 12px;*/
+    text-decoration: underline;
+    font-weight: 540;
+    /*color:blue;*/
+    color:black;
+    }
+a:visited {color:brown;}
+a:hover{
+    text-decoration: none;
+    /*color: #C02020;*/
+    color: black;
+    text-decoration: underline;
+    word-spacing: 0px;
+    font-weight: 600;
+}
+h1{
+    background-color: #BEC5D8;
+    /*border-bottom: 1px solid #003B62;*/
+    /*padding: 3px;*/
+    /*border-bottom: 4px double black;*/
+    font-size: 100%;
+}

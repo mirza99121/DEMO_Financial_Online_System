@@ -1,0 +1,4 @@
+Create test database
+---------------------
+
+CREATE DATABASE test;
